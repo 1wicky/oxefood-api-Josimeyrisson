@@ -15,7 +15,7 @@ import br.com.ifpe.oxefood.modelo.entregador.EntregadorService;
 import br.com.ifpe.oxefood.util.entity.GenericController;
 
 @RestController
-@RequestMapping("/api/cliente")
+@RequestMapping("/api/entregador")
 public class EntregadorController extends GenericController {
 
    @Autowired

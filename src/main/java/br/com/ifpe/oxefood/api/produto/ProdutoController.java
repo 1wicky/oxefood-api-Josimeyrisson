@@ -15,7 +15,7 @@ import br.com.ifpe.oxefood.modelo.produto.ProdutoService;
 import br.com.ifpe.oxefood.util.entity.GenericController;
 
 @RestController
-@RequestMapping("/api/cliente")
+@RequestMapping("/api/produto")
 public class ProdutoController extends GenericController {
 
    @Autowired
