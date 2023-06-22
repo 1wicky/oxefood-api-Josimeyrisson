@@ -28,7 +28,7 @@ public class CompradorRequest {
 
    private Double comissao;
 
-   private Boolean trabahoHomeOffice;
+   private Boolean trabalhoHomeOffice;
 
    private Integer qtdComprasMediasMes;
 
@@ -45,7 +45,7 @@ public class CompradorRequest {
                .enderecoComercial(enderecoComercial)
                .enderecoResidencial(enderecoResidencial)
                .comissao(comissao)
-               .trabahoHomeOffice(trabahoHomeOffice)
+               .trabalhoHomeOffice(trabalhoHomeOffice)
                .qtdComprasMediasMes(qtdComprasMediasMes)
                .contratadoEm(contratadoEm)
                .build();

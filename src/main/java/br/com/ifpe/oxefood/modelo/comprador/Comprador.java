@@ -44,7 +44,7 @@ public class Comprador extends EntidadeAuditavel  {
    private Double comissao;
  
    @Column
-   private Boolean trabahoHomeOffice;
+   private Boolean trabalhoHomeOffice;
 
    @Column
    private Integer qtdComprasMediasMes;
